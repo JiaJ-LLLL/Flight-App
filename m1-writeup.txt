@@ -1,0 +1,26 @@
+1. What is one thing that you learned?
+    I gained a basic understanding of backend of software development, in particular how java and sql interact.
+
+2. One thing that surprised you?
+    I surprised that I successfully developed my first application, while is a small demo, by sql and java.
+
+3. a question you still have after doing this assignment
+    I am still very confused about control flow. For example, when we should close the connection between java and database.
+
+Recall the debugging technique you described in the HW3 writeup.  Did you use it or something similar when debugging M1?
+(this is a simple yes/no question)
+ No, I didn't use those techniques
+
+In 1-2 sentences, describe a bug in one of your M1 queries.  Then, describe how you noticed the bug and, in 3-4 sentences,
+how you fixed it.  If you answered “yes” above, please describe a different bug.
+    I couldn't pass tests for login and I debugged this more than four hours. My outputs, which I ran in main, are
+    exactly same with the output with the outputs in the tests. So, I went to the office hour, with TA's help, we found
+    this because I set my global variable, which used for check if there is a user already login, static, which allows
+    other instances of program to access the same field. Therefore, tests will find there is already a login user after
+    the first test passes.
+
+This project demonstrated how application logic can perform transformations on query results (eg, merging direct
+and indirect itineraries) or on user input (eg, salting and hashing passwords).  What other logic would you like to
+see and/or implement in FlightApp's Java; ie, logic that cannot be done in SQL or by the user?
+    Developing a recommendation engine that suggests flights, upgrades, or additional services based on the user's
+    past behavior, preferences, and even current trends.

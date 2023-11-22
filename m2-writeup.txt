@@ -1,0 +1,14 @@
+1. What is one thing that you learned while doing M2?
+    I learned how to use transaction to allow multiple users to work on same database
+2. What is one thing that surprised you while doing M2?
+    I was surprised that this project is extremely larger than I thought
+3. What is one question that you still have after doing M2?
+    I am still confused about the concept of deadlock and how to avoid it
+4. Were you able to make any progress on your “one question I still have” from M1?  If so, please describe how it happened (eg, did you stumble upon the answer, did it come up in lecture, did you read about it yourself, etc).  If you did not, describe how you might find an answer to it.
+    I still have not solved that question, but I will definitely go to the office hour and
+    ask TA for help after I finish this homework.
+
+Question3
+We can allow the ManagerEmpID field to be NULL. In the database, if the managerEmpId of a tuple is null,
+then it indicates that the person does not have a manager. In java, if we find the person is a CEO, we can
+set the ManagerEmpID to be null when we insert the values into database.

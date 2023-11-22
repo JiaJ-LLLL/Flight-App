@@ -1,0 +1,11 @@
+# Verify that we can do a search without output.
+
+# commands:
+search "Aberdeen SD" "Abilene TX" 1 10 1
+quit
+*
+
+# expected command output:
+No flights match your selection
+Goodbye
+*
